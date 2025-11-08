@@ -138,27 +138,31 @@ export default function NetflixPortfolio() {
                   <h3 className="text-lg font-bold">{project.title}</h3>
                 </div>
 
-                {/* Hover Info */}
+                {/* Hover Info - FIXED STRUCTURE */}
                 {hoveredId === project.id && (
                   <div className="absolute inset-0 bg-zinc-900 bg-opacity-95 p-4 flex flex-col justify-between overflow-y-auto">
-                    <h3 className="text-xl font-bold mb-3">{project.title}</h3>
-                    
-                    <p className="text-sm text-gray-300 mb-4">
-                      {project.description}
-                    </p>
-                    
-                    <div className="flex flex-wrap gap-2 mb-4">
-                      {project.tags.map((tag, index) => (
-                        <span
-                          key={index}
-                          className="px-2 py-1 bg-zinc-800 rounded text-xs"
-                        >
-                          {tag}
-                        </span>
-                      ))}
+                    {/* Top Content Group */}
+                    <div>
+                      <h3 className="text-xl font-bold mb-3">{project.title}</h3>
+                      
+                      <p className="text-sm text-gray-300 mb-4">
+                        {project.description}
+                      </p>
+                      
+                      <div className="flex flex-wrap gap-2">
+                        {project.tags.map((tag, index) => (
+                          <span
+                            key={index}
+                            className="px-2 py-1 bg-zinc-800 rounded text-xs"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
                     </div>
 
-                    <div className="flex gap-3">
+                    {/* Bottom Buttons Group */}
+                    <div className="flex gap-3 mt-4">
                       <a
                         href={project.demo}
                         target="_blank"
