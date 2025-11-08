@@ -16,12 +16,12 @@ export default function NetflixPortfolio() {
     },
     {
       id: 2,
-      title: "Sales Analytics Dashboard",
-      description: "Interactive Power BI dashboard analyzing sales trends, forecasts, and KPIs for business decision-making.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=281&fit=crop",
-      tags: ["Power BI", "Excel", "Analytics"],
-      github: "https://github.com/Dev2943/sales-dashboard",
-      demo: "https://github.com/Dev2943/sales-dashboard"
+      title: "Restaurant Sentiment Analyzer Pro",
+      description: "Advanced NLP pipeline with TextBlob, VADER, and ensemble ML models analyzing 750+ restaurant reviews. Features multi-restaurant comparison, topic modeling, real-time sentiment analysis, and automated business insights with 85%+ accuracy.",
+      image: "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=500&h=281&fit=crop",
+      tags: ["Python", "NLP", "Streamlit", "MachineLearning"],
+      github: "https://github.com/Dev2943/restaurant-sentiment-analyzer",
+      demo: "https://dev2943-restaurant-sentiment-analyzer.streamlit.app"
     },
     {
       id: 3,
