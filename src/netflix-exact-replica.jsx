@@ -21,7 +21,7 @@ export default function NetflixPortfolio() {
       image: "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=500&h=281&fit=crop",
       tags: ["Python", "NLP", "Streamlit", "MachineLearning"],
       github: "https://github.com/Dev2943/restaurant-sentiment-analyzer",
-      demo: "https://dev2943-restaurant-sentiment-analyzer.streamlit.app"
+      demo: "https://dev2943-restaurant-sentiment-analyzer.streamlit.app" 
     },
     {
       id: 3,
@@ -140,7 +140,7 @@ export default function NetflixPortfolio() {
 
                 {/* Hover Info */}
                 {hoveredId === project.id && (
-                  <div className="absolute inset-0 bg-zinc-900 bg-opacity-95 p-4 flex flex-col justify-center">
+                  <div className="absolute inset-0 bg-zinc-900 bg-opacity-95 p-4 flex flex-col justify-between overflow-y-auto">
                     <h3 className="text-xl font-bold mb-3">{project.title}</h3>
                     
                     <p className="text-sm text-gray-300 mb-4">
