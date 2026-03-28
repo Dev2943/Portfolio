@@ -16,21 +16,21 @@ export default function NetflixPortfolio() {
     },
     {
       id: 2,
+      title: "COVID-19 Healthcare Analytics Dashboard",
+      description: "Full-stack interactive analytics dashboard tracking 775M+ COVID-19 cases across 243 countries. Features ML forecasting with Facebook Prophet, ICU & hospital resource utilization trends, geospatial choropleth maps, and surge detection alerts. Deployed live on Railway.",
+      image: "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=500&h=281&fit=crop",
+      tags: ["Python", "Dash", "ProphetML", "Healthcare"],
+      github: "https://github.com/Dev2943/-covid-healthcare-analytics",
+      demo: "https://covid-healthcare-analytics-production.up.railway.app"
+    },
+    {
+      id: 3,
       title: "Restaurant Sentiment Analyzer Pro",
       description: "Advanced NLP pipeline with TextBlob, VADER, and ensemble ML models analyzing 750+ restaurant reviews. Features multi-restaurant comparison, topic modeling, real-time sentiment analysis, and automated business insights with 85%+ accuracy.",
       image: "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=500&h=281&fit=crop",
       tags: ["Python", "NLP", "Streamlit", "MachineLearning"],
       github: "https://github.com/Dev2943/restaurant-sentiment-analyzer",
       demo: "https://dev2943-restaurant-sentiment-analyzer.streamlit.app" 
-    },
-    {
-      id: 3,
-      title: "SQL Data Analysis Project",
-      description: "Comprehensive SQL queries for data extraction, transformation and analysis on large datasets.",
-      image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=500&h=281&fit=crop",
-      tags: ["SQL", "Database", "Analytics"],
-      github: "https://github.com/Dev2943/sql-analysis",
-      demo: "https://github.com/Dev2943/sql-analysis"
     },
     {
       id: 4,
