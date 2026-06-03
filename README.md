@@ -110,7 +110,7 @@ This site auto-deploys from GitHub:
 ## 👨‍💻 Author
 
 **Dev Golakiya** — MS Business Analytics, UMass Amherst
-- 📧 devgolakiya31@gmail.com
+- 📧 devgolakiya07@gmail.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/devgolakiya)
 - 🐙 [GitHub](https://github.com/Dev2943)
 
