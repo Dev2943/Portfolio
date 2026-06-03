@@ -59,9 +59,9 @@ export default function NetflixPortfolio() {
       title: "COVID-19 Healthcare Analytics Dashboard",
       description: "Full-stack interactive analytics dashboard tracking 775M+ COVID-19 cases across 243 countries. ML forecasting with Facebook Prophet, ICU & hospital resource utilization trends, geospatial choropleth maps, and surge detection alerts. Deployed live on Railway.",
       image: "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=500&h=281&fit=crop",
-      tags: ["Python", "Dash", "Prophet ML", "Healthcare",],
+      tags: ["Python", "Dash", "Prophet ML", "Healthcare", "Railway"],
       github: "https://github.com/Dev2943/-covid-healthcare-analytics",
-      demo: "https://covid-healthcare-analytics-909492874362.us-central1.run.app"
+      demo: "https://covid-healthcare-analytics-production.up.railway.app"
     },
     {
       id: 7,
@@ -158,6 +158,7 @@ export default function NetflixPortfolio() {
               <a href="#home"     className="hover:text-gray-300 transition">Home</a>
               <a href="#projects" className="hover:text-gray-300 transition">Projects</a>
               <a href="#about"    className="hover:text-gray-300 transition">About</a>
+              <a href="#interests" className="hover:text-gray-300 transition">Interests</a>
               <a href="#contact"  className="hover:text-gray-300 transition">Contact</a>
             </div>
           </div>
@@ -289,6 +290,54 @@ export default function NetflixPortfolio() {
         </div>
       </div>
 
+      {/* Beyond the Code — Interests Section */}
+      <div id="interests" className="px-4 md:px-12 py-20 bg-black">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-3">Beyond the Code</h2>
+          <p className="text-gray-400 text-lg mb-12">A few things I'm passionate about outside of work.</p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            {/* Chess */}
+            <div className="group bg-zinc-900 rounded-xl p-6 border border-zinc-800 hover:border-red-600 transition-all duration-300 hover:-translate-y-1">
+              <div className="text-5xl mb-4">♟️</div>
+              <h3 className="text-xl font-bold mb-2">Chess</h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                A serious chess player — I love the strategy, pattern recognition, and calculating lines several moves ahead. The same analytical thinking I bring to quant problems.
+              </p>
+            </div>
+
+            {/* FPS Gaming */}
+            <div className="group bg-zinc-900 rounded-xl p-6 border border-zinc-800 hover:border-red-600 transition-all duration-300 hover:-translate-y-1">
+              <div className="text-5xl mb-4">🎮</div>
+              <h3 className="text-xl font-bold mb-2">FPS Gaming</h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Big fan of first-person shooters — fast reflexes, split-second decisions, and competitive gameplay. A great way to unwind and stay sharp.
+              </p>
+            </div>
+
+            {/* FC Barcelona */}
+            <div className="group bg-zinc-900 rounded-xl p-6 border border-zinc-800 hover:border-red-600 transition-all duration-300 hover:-translate-y-1">
+              <div className="text-5xl mb-4">⚽</div>
+              <h3 className="text-xl font-bold mb-2">FC Barcelona</h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Visca el Barça! A lifelong Culé — I follow every match and love the philosophy of beautiful, possession-based football. 💙❤️
+              </p>
+            </div>
+
+            {/* Max Verstappen / F1 */}
+            <div className="group bg-zinc-900 rounded-xl p-6 border border-zinc-800 hover:border-red-600 transition-all duration-300 hover:-translate-y-1">
+              <div className="text-5xl mb-4">🏎️</div>
+              <h3 className="text-xl font-bold mb-2">Formula 1</h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Huge Max Verstappen fan — the precision, racecraft, and relentless drive for the fastest lap. Where engineering meets raw competition.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
       {/* Contact Section — unchanged layout */}
       <div id="contact" className="px-4 md:px-12 py-20 bg-black">
         <div className="max-w-4xl mx-auto text-center">
@@ -297,7 +346,7 @@ export default function NetflixPortfolio() {
             Open to quant research, market risk, ML engineering, and analytics roles. Feel free to reach out!
           </p>
           <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <a href="mailto:devgolakiya31@gmail.com"
+            <a href="mailto:devgolakiya07@gmail.com"
               className="p-6 bg-zinc-900 rounded-lg hover:bg-zinc-800 transition group">
               <svg className="w-12 h-12 mx-auto mb-4 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
@@ -323,7 +372,7 @@ export default function NetflixPortfolio() {
             </a>
           </div>
           <a
-            href="https://drive.google.com/file/d/1m7gth-m56MJU0HCtTjUk__YwXR9KKZ7s/view?usp=drive_link"
+            href="https://drive.google.com/file/d/144I6Vnd5QfVWu780qQjfF-DdRnBI6by8/view?usp=drive_link"
             className="inline-flex items-center gap-2 bg-red-600 text-white px-8 py-4 rounded-lg hover:bg-red-700 transition font-semibold text-lg"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
