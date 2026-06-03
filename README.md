@@ -4,7 +4,7 @@ An advanced NLP-powered business intelligence platform that analyzes restaurant 
 
 ## 🌐 Live Demo
 
-**[View Live Application](https://dev2943-restaurant-sentiment-analyzer.streamlit.app)**
+**[View Live Application](https://dev-golakiya-portfolio.netlify.app/)**
 
 ## 📊 Overview
 
