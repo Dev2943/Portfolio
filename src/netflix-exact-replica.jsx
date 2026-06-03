@@ -59,9 +59,9 @@ export default function NetflixPortfolio() {
       title: "COVID-19 Healthcare Analytics Dashboard",
       description: "Full-stack interactive analytics dashboard tracking 775M+ COVID-19 cases across 243 countries. ML forecasting with Facebook Prophet, ICU & hospital resource utilization trends, geospatial choropleth maps, and surge detection alerts. Deployed live on Railway.",
       image: "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=500&h=281&fit=crop",
-      tags: ["Python", "Dash", "Prophet ML", "Healthcare", "Railway"],
+      tags: ["Python", "Dash", "Prophet ML", "Healthcare",],
       github: "https://github.com/Dev2943/-covid-healthcare-analytics",
-      demo: "https://covid-healthcare-analytics-production.up.railway.app"
+      demo: "https://covid-healthcare-analytics-909492874362.us-central1.run.app"
     },
     {
       id: 7,
