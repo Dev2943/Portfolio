@@ -1,175 +1,124 @@
-# Restaurant Review Sentiment Analyzer Pro
+# 🎬 Interactive Portfolio
 
-An advanced NLP-powered business intelligence platform that analyzes restaurant reviews to provide actionable insights using ensemble machine learning models.
+A personal portfolio website built with React and Tailwind CSS, designed with a sleek, streaming-service-inspired interface. Showcases quantitative finance, machine learning, and analytics projects in an interactive, browsable layout.
 
-## 🌐 Live Demo
+## 🚀 Live Demo
 
-**[View Live Application](https://dev-golakiya-portfolio.netlify.app/)**
+**[View Live Portfolio](https://dev-golakiya-portfolio.netlify.app)**
 
-## 📊 Overview
+---
 
-This project analyzes 750+ restaurant reviews using state-of-the-art Natural Language Processing techniques to deliver comprehensive sentiment analysis and business recommendations. The application features multi-restaurant comparison capabilities, real-time sentiment analysis, and automated insights generation.
+## ✨ Features
 
-## ✨ Key Features
+- **Cinematic UI** — dark theme, hero banner, and hover-to-expand project cards
+- **Two project rows** — Quantitative Finance and ML & Analytics, browsable like streaming categories
+- **Interactive project cards** — hover to reveal description, tech tags, and Demo / Code buttons
+- **Responsive design** — adapts cleanly from mobile to desktop
+- **Smooth navigation** — sticky nav bar with anchor links to Home, Projects, About, and Contact
+- **Direct project links** — each card links to its live demo and GitHub repo
 
-- **Advanced NLP Pipeline**: Ensemble ML models using TextBlob, VADER, and scikit-learn algorithms
-- **High Accuracy**: Achieves 85%+ classification accuracy
-- **Multi-Restaurant Comparison**: Compare sentiment across multiple restaurant locations
-- **Real-Time Analysis**: Instant sentiment scoring and classification
-- **Topic Modeling**: Automatic extraction of key themes from reviews
-- **Interactive Visualizations**: Word clouds, sentiment distributions, and trend analysis
-- **Automated Business Insights**: Data-driven recommendations for restaurant performance improvement
+---
 
-## 🛠️ Built With
+## 🛠 Tech Stack
 
-- **Python** - Core programming language
-- **Streamlit** - Web application framework
-- **TextBlob** - Simple sentiment analysis
-- **VADER** - Social media and short text sentiment analysis
-- **Scikit-learn** - Machine learning algorithms (Naive Bayes, Logistic Regression, SVM)
-- **Pandas & NumPy** - Data manipulation and analysis
-- **Matplotlib & Seaborn** - Data visualization
-- **WordCloud** - Visual representation of frequent terms
+| Layer | Tool |
+|-------|------|
+| Framework | React 19 |
+| Styling | Tailwind CSS 3 |
+| Build | Create React App (react-scripts) |
+| Icons | Inline SVG |
+| Deployment | Netlify |
 
-## 📈 Technical Highlights
+---
 
-- **Ensemble Learning**: Combines multiple NLP models for robust predictions
-- **Feature Engineering**: Advanced text preprocessing and feature extraction
-- **Scalable Architecture**: Handles large datasets efficiently
-- **Interactive Dashboard**: User-friendly interface with real-time updates
-- **Business Intelligence**: Converts raw sentiment into actionable recommendations
+## 📂 Featured Projects
 
-## 🚀 How It Works
+### Quantitative Finance
+- **Stock Market Analysis Platform** — 9-tab dashboard with VaR, options pricing, and factor models (Google Cloud Run)
+- **Black-Scholes Options Pricer** — closed-form pricer with Greeks and IV solver
+- **Monte Carlo Options Pricer** — variance reduction and exotic payoffs
+- **Multi-Factor Equity Model** — Fama-French + momentum backtest
+- **VaR & Expected Shortfall Calculator** — backtesting and stress testing
 
-1. **Data Input**: Upload restaurant reviews or use the sample dataset
-2. **Text Preprocessing**: Clean and normalize review text
-3. **Sentiment Analysis**: Apply ensemble ML models (TextBlob, VADER, classifiers)
-4. **Topic Modeling**: Extract key themes and topics
-5. **Visualization**: Generate interactive charts, word clouds, and metrics
-6. **Insights Generation**: Produce automated business recommendations
+### ML & Analytics
+- **COVID-19 Healthcare Analytics Dashboard** — Prophet forecasting + Monte Carlo (Google Cloud Run)
+- **Restaurant Sentiment Analyzer Pro** — ensemble NLP pipeline (Streamlit)
 
-## 📊 Analysis Features
+---
 
-- Sentiment distribution across positive, negative, and neutral reviews
-- Rating correlation analysis
-- Topic extraction and frequency analysis
-- Word clouds for positive and negative feedback
-- Time-series sentiment trends (if date data available)
-- Restaurant comparison dashboards
-- Key driver analysis for customer satisfaction
-
-## 🎯 Use Cases
-
-- **Restaurant Owners**: Understand customer feedback and improve service
-- **Marketing Teams**: Identify strengths and weaknesses for campaigns
-- **Operations Managers**: Prioritize areas for operational improvements
-- **Business Analysts**: Extract insights from customer reviews at scale
-
-## 📂 Project Structure
-
-```
-restaurant-sentiment-analyzer/
-├── app.py                  # Main Streamlit application
-├── data/                   # Sample review datasets
-├── models/                 # Pre-trained ML models
-├── utils/                  # Helper functions for NLP
-├── visualizations/         # Plotting and charting utilities
-├── requirements.txt        # Python dependencies
-└── README.md              # Project documentation
-```
-
-## 🔧 Local Installation
+## 🔧 Local Setup
 
 ```bash
 # Clone the repository
-git clone https://github.com/Dev2943/restaurant-sentiment-analyzer.git
-
-# Navigate to project directory
-cd restaurant-sentiment-analyzer
+git clone https://github.com/Dev2943/Portfolio.git
+cd Portfolio
 
 # Install dependencies
-pip install -r requirements.txt
+npm install
 
-# Run the application
-streamlit run app.py
+# Start the development server
+npm start
+```
+Open **http://localhost:3000** in your browser.
+
+### Build for production
+```bash
+npm run build
 ```
 
-## 📦 Requirements
+---
+
+## 📁 Project Structure
 
 ```
-streamlit
-pandas
-numpy
-scikit-learn
-textblob
-vaderSentiment
-matplotlib
-seaborn
-wordcloud
-plotly
+Portfolio/
+├── public/
+│   └── index.html
+├── src/
+│   ├── netflix-exact-replica.jsx   # Main portfolio component
+│   ├── index.js                    # React entry point
+│   └── index.css                   # Tailwind directives
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
 ```
 
-## 🎓 Technical Details
+---
 
-### Machine Learning Models
-- **Naive Bayes Classifier**: Fast and efficient for text classification
-- **Logistic Regression**: Provides probabilistic sentiment scores
-- **Support Vector Machine**: High-dimensional text classification
-- **Ensemble Voting**: Combines predictions for improved accuracy
+## 🎨 Customization
 
-### NLP Techniques
-- Tokenization and lemmatization
-- Stop word removal
-- TF-IDF vectorization
-- N-gram analysis
-- Part-of-speech tagging
+All projects, links, and content live in `src/netflix-exact-replica.jsx`. To update:
 
-### Evaluation Metrics
-- Accuracy: 85%+
-- Precision, Recall, F1-Score
-- Confusion Matrix Analysis
-- Cross-validation scores
+- **Add/edit projects** — modify the `quantProjects` and `mlProjects` arrays
+- **Change hero text** — edit the hero section
+- **Update skills** — edit the About section's skill arrays
+- **Swap images** — replace the `image` URLs in each project object
 
-## 🌟 Future Enhancements
+---
 
-- [ ] Multi-language support
-- [ ] Aspect-based sentiment analysis
-- [ ] Deep learning models (BERT, RoBERTa)
-- [ ] Real-time review scraping from APIs
-- [ ] Competitive analysis features
-- [ ] Email alert system for negative reviews
-- [ ] Mobile app version
+## 🚀 Deployment (Netlify)
+
+This site auto-deploys from GitHub:
+1. Connect your repo to Netlify
+2. Build command: `npm run build`
+3. Publish directory: `build`
+4. Every push to `main` triggers an automatic redeploy
+
+---
 
 ## 👨‍💻 Author
 
-**Dev Golakiya**
-- Email: devgolakiya31@gmail.com
-- LinkedIn: [Dev Golakiya](https://www.linkedin.com/in/devgolakiya)
-- GitHub: [@Dev2943](https://github.com/Dev2943)
-- Portfolio: [View Portfolio](https://your-portfolio-link.netlify.app)
+**Dev Golakiya** — MS Business Analytics, UMass Amherst
+- 📧 devgolakiya31@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/devgolakiya)
+- 🐙 [GitHub](https://github.com/Dev2943)
+
+---
 
 ## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- Built with Streamlit for rapid prototyping
-- NLP libraries: TextBlob, VADER, and scikit-learn
-- Dataset sources and restaurant review platforms
-- Open source community for tools and inspiration
+MIT — free to use, fork, and adapt for your own portfolio.
 
 ---
 
-⭐ **If you find this project useful, please consider giving it a star on GitHub!**
-
-## 📞 Contact
-
-For questions, suggestions, or collaboration opportunities:
-- Open an issue on GitHub
-- Email: devgolakiya31@gmail.com
-- Connect on LinkedIn
-
----
-
-*Last Updated: November 2025*
+*Built with React & Tailwind CSS · Deployed on Netlify · Last updated June 2026*
