@@ -50,6 +50,15 @@ export default function NetflixPortfolio() {
       github: "https://github.com/Dev2943/var-calculator",
       demo: "https://github.com/Dev2943/var-calculator"
     },
+    {
+      id: 8,
+      title: "American Options Pricer",
+      description: "Prices American options three ways: CRR binomial trees, the Longstaff-Schwartz least-squares Monte Carlo, and basket extensions. Computes the early-exercise premium that Black-Scholes has no closed form for. Binomial and LSM cross-validate to the cent on the American put (~$6.09). Convergence to BS empirically verified.",
+      image: "https://images.unsplash.com/photo-1564594985645-4427056e22e2?w=500&h=281&fit=crop",
+      tags: ["Python", "Binomial Trees", "Longstaff-Schwartz", "Monte Carlo", "SciPy"],
+      github: "https://github.com/Dev2943/tree-pricer",
+      demo: "https://tree-pricer-909492874362.us-central1.run.app"
+    },
   ];
 
   // ── Row 2: ML & Analytics Projects ───────────────────────────────────────
@@ -57,11 +66,11 @@ export default function NetflixPortfolio() {
     {
       id: 6,
       title: "COVID-19 Healthcare Analytics Dashboard",
-      description: "Full-stack interactive analytics dashboard tracking 775M+ COVID-19 cases across 243 countries. ML forecasting with Facebook Prophet, ICU & hospital resource utilization trends, geospatial choropleth maps, and surge detection alerts. Deployed live on Railway.",
+      description: "Full-stack interactive analytics dashboard tracking COVID-19 across 248 countries. ML forecasting with Facebook Prophet, Monte Carlo scenario simulation with a 'Case-at-Risk' tail-risk KPI, ICU & hospital resource utilization trends, geospatial choropleth maps, and surge detection alerts. Dockerized on Google Cloud Run.",
       image: "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=500&h=281&fit=crop",
-      tags: ["Python", "Dash", "Prophet ML", "Healthcare", "Railway"],
-      github: "https://github.com/Dev2943/-covid-healthcare-analytics",
-      demo: "https://covid-healthcare-analytics-production.up.railway.app"
+      tags: ["Python", "Dash", "Prophet ML", "Monte Carlo", "GCP", "Docker"],
+      github: "https://github.com/Dev2943/covid-healthcare-analytics",
+      demo: "https://covid-healthcare-analytics-909492874362.us-central1.run.app"
     },
     {
       id: 7,
@@ -71,6 +80,15 @@ export default function NetflixPortfolio() {
       tags: ["Python", "NLP", "Streamlit", "scikit-learn", "85%+ Accuracy"],
       github: "https://github.com/Dev2943/restaurant-sentiment-analyzer",
       demo: "https://dev2943-restaurant-sentiment-analyzer.streamlit.app"
+    },
+    {
+      id: 9,
+      title: "Credit Card Portfolio Analytics",
+      description: "End-to-end consumer-credit analytics on 30,000 cardholders: ETL & behavioral feature engineering, K-means customer segmentation, default prediction (logistic regression + gradient boosting) with a fair-lending disparate-impact check, and risk-adjusted portfolio KPIs (Expected Loss = PD × EAD × LGD). Built for a bank quant-analytics role.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=281&fit=crop",
+      tags: ["Python", "scikit-learn", "Segmentation", "Credit Risk", "Streamlit"],
+      github: "https://github.com/Dev2943/card-analytics",
+      demo: "https://card-analytics-909492874362.us-central1.run.app"
     },
   ];
 
