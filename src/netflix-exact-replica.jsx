@@ -59,6 +59,15 @@ export default function NetflixPortfolio() {
       github: "https://github.com/Dev2943/tree-pricer",
       demo: "https://tree-pricer-909492874362.us-central1.run.app"
     },
+    {
+      id: 10,
+      title: "Credit Portfolio Analytics & Trading System",
+      description: "Four-layer credit system mirroring a bank's Credit Portfolio Group quant desk. Layer 1: single-name credit (Merton structural, Black-Cox first-passage, reduced-form CDS pricing) validated on real firms — correctly ranked MSFT/Ford/Carnival by credit risk. Layer 2: Gaussian copula portfolio risk — default correlation multiplies tail risk 3×→18× while expected loss stays flat. Layer 3: CDS hedge optimization cutting 99% Expected Shortfall 24%. Layer 4: an LLM agent generating grounded desk briefings. 43 tests.",
+      image: "https://images.unsplash.com/photo-1543699565-003b8adda5fc?w=500&h=281&fit=crop",
+      tags: ["Python", "Credit Risk", "Copula", "CDS Pricing", "LLM", "SciPy"],
+      github: "https://github.com/Dev2943/credit-system",
+      demo: "https://github.com/Dev2943/credit-system"
+    },
   ];
 
   // ── Row 2: ML & Analytics Projects ───────────────────────────────────────
