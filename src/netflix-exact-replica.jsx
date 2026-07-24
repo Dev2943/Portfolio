@@ -68,6 +68,15 @@ export default function NetflixPortfolio() {
       github: "https://github.com/Dev2943/credit-system",
       demo: "https://github.com/Dev2943/credit-system"
     },
+    {
+      id: 11,
+      title: "Costco Three-Statement Model & DCF Valuation",
+      description: "Full three-statement model (income statement, balance sheet, cash flow) built from Costco's FY2024 SEC filings, projected 5 years and fully linked — balances to zero every year. DCF with CAPM WACC, mid-year discounting, and terminal value both ways. Key finding via reverse DCF: the market implies 6.3% perpetual growth vs ~4% nominal GDP — pricing the membership annuity (1.9% of revenue, 52% of operating income, 90%+ renewal). Demonstrates building a complete valuation from a blank modeling shell.",
+      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500&h=281&fit=crop",
+      tags: ["Excel", "Financial Modeling", "DCF", "Valuation", "Equity Research"],
+      github: "https://github.com/Dev2943/costco-dcf-model",
+      demo: "https://github.com/Dev2943/costco-dcf-model"
+    },
   ];
 
   // ── Row 2: ML & Analytics Projects ───────────────────────────────────────
