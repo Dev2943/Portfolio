@@ -77,6 +77,15 @@ export default function NetflixPortfolio() {
       github: "https://github.com/Dev2943/costco-dcf-model",
       demo: "https://github.com/Dev2943/costco-dcf-model"
     },
+    {
+      id: 12,
+      title: "Crypto Funding-Rate Basis Research",
+      description: "Event-driven research pipeline testing whether the crypto funding-rate basis trade (long spot, short perpetual) survives real transaction costs. Real OKX funding and price data across 5 assets, strict no-lookahead signal construction, and four-leg fee plus slippage accounting on every round trip. Key finding: it doesn't. Gross funding runs 0.3–4.4% annualized in the current regime and net returns go negative at taker fees. The break-even frontier shows the signal only activates below ~0.05% round-trip execution, reframing a widely-pitched 'delta-neutral yield' as an execution-cost edge captured by whoever trades cheapest. Real and synthetic results kept strictly separate.",
+      image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=500&h=281&fit=crop",
+      tags: ["Python", "pandas", "Backtesting", "Transaction Costs", "OKX API"],
+      github: "https://github.com/Dev2943/funding-basis",
+      demo: "https://github.com/Dev2943/funding-basis"
+    },
   ];
 
   // ── Row 2: ML & Analytics Projects ───────────────────────────────────────
