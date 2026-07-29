@@ -90,7 +90,7 @@ export default function NetflixPortfolio() {
       id: 13,
       title: "Monoculture Risk: Systemic Fragility from AI-Driven Model Convergence",
       description: "Agent-based market simulation giving computational teeth to the CFA Institute's 'cognitive convergence' systemic-risk thesis. Price emerges from momentum and mean-reverting agents; a tunable diversity parameter drives the population from diverse to monoculture. Ran 630 simulations (21 diversity levels × 30 seeds) showing systemic fragility rises and accelerates as strategy diversity collapses — max drawdown −3%→−11%, action synchronization 53%→99%. Explicitly tested for a sharp phase transition and honestly reported gradual acceleration rather than overclaiming a tipping point.",
-      image: "https://source.unsplash.com/500x281/?network,abstract
+      image: "image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=500&h=281&fit=crop",
       tags: ["Python", "Agent-Based Modeling", "Systemic Risk", "NumPy", "Simulation"],
       github: "https://github.com/Dev2943/monoculture-risk",
       demo: "https://github.com/Dev2943/monoculture-risk"
