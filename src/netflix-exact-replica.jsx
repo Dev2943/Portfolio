@@ -95,6 +95,24 @@ export default function NetflixPortfolio() {
       github: "https://github.com/Dev2943/monoculture-risk",
       demo: "https://github.com/Dev2943/monoculture-risk"
     },
+    {
+      id: 14,
+      title: "Predictive Trading Lab",
+      description: "Deterministic C++23 trading engine (57k lines, 34 libraries) exposed through a FastAPI gateway and Next.js research workstation. The hard problem wasn't trading — it was serving a single-threaded, deterministic engine through a concurrent web API without losing reproducibility. A mutex around the engine would have put a lock on the trading path, so writes became commands applied between events by one driver thread while reads come from immutable snapshots. C++ objects are never bound to Python; everything crosses as JSON. One config fingerprint (30b44e5972450aad) verified identical across the C++ binary, the bindings, and the HTTP gateway, unchanged through GCC, Clang, C++20, C++23 and sanitized builds. 990 tests.",
+      image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=500&h=281&fit=crop",
+      tags: ["C++23", "pybind11", "FastAPI", "Next.js", "Docker", "990 Tests"],
+      github: "https://github.com/Dev2943/predictive-trading-lab",
+      demo: "https://predictive-trading-lab.vercel.app"
+    },
+    {
+      id: 15,
+      title: "Low-Latency Matching Engine & Exchange Simulator",
+      description: "C++20 electronic exchange: order gateway, matching engine, and sequenced market-data feed. Deterministic price-time priority across limit/market/IOC orders, execution at the resting order's price, account-level self-match prevention. 14.8M orders/sec at 49.5 ns median match latency; companion feed handler decodes a binary ITCH-style protocol at 4.0M messages/sec with 160 ns tick-to-book. Hot path is allocation-free — three-level bitmap for O(1) best bid/ask, open-addressed index with backward-shift deletion, 32-byte cache-aligned order records. Profiling cut worst-case latency 78× (113 µs → 1.4 µs). 762,693 test assertions, including a differential test replaying the venue's own feed into a second book and asserting identical state down to queue position. Live WebSocket trading terminal with depth ladder, order entry, and instrumented latency.",
+      image: "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=500&h=281&fit=crop",
+      tags: ["C++20", "Matching Engine", "Low Latency", "Lock-Free", "Market Microstructure", "WebSocket"],
+      github: "https://github.com/Dev2943/matching-engine",
+      demo: "https://github.com/Dev2943/matching-engine"
+    },
   ];
 
   // ── Row 2: ML & Analytics Projects ───────────────────────────────────────
